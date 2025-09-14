@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.forms{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    background-color: bisque;
+    height: 70%;
+    width: 60%;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+#nome{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 50px;
+}
+#email{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-top: 50px;
+}
+#senha{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#matri{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#button{
+    height: 40px;
+    width: 120px;
+}
+input{
+    height: 50%;
+    width: 80%;
+    border-radius: 23px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bot{
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.key{
+    position: relative; 
+}

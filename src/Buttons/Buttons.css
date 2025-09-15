@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.imgs{
+    height: 10px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}

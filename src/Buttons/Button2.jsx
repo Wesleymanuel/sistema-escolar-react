@@ -1,8 +1,9 @@
 import { GoAlert } from 'react-icons/go'
+import './Buttons.css'
 
 const Button2 = () => {
   return (
-    <div><GoAlert/>noticias</div>
+    <div className='imgs'><GoAlert/>reclamacoes</div>
   )
 }
 

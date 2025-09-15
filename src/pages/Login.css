@@ -12,35 +12,40 @@
 .div{
     background-color: bisque;
     height: 70%;
-    width: 60%;
+    width: 50%;
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
     align-items: center;
 }
 #nome{
     grid-column-start: 1;
     grid-column-end: 3;
     margin-top: 50px;
+    grid-row-start: 2;
 }
 #email{
     grid-column-start: 3;
     grid-column-end: 5;
     margin-top: 50px;
+    grid-row-start: 2;
 }
 #senha{
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 4;
 }
 #matri{
     grid-column-start: 3;
     grid-column-end: 5;
+    grid-row-start: 4;
 }
 #button{
     height: 40px;
     width: 120px;
+
 }
 input{
-    height: 50%;
+    height: 60%;
     width: 80%;
     border-radius: 23px;
     padding-left: 10px;
@@ -54,6 +59,7 @@ input{
     justify-content: center;
     align-items: center;
     height: 100%;
+    grid-row-start: 6;
 }
 .key{
     position: relative; 

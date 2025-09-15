@@ -1,4 +1,3 @@
-import Header from "../assets/Header"
 
 const Reclame = () => {
   return (

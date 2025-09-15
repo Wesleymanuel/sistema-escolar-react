@@ -1,26 +1,24 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-.header{
-    padding: 10px;
-    display: flex;
-    justify-content:space-between ;
-    background-color: black;
-    color: white;
-}
-.ul{
+.nav{
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    width: 10%;
-    margin-right: 20px;
+    padding: 12px;
     align-items: center;
 }
-input{
+.imports{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+.search{
+    height: 30px;
     width: 30%;
 }
-h1{
+.logo{
     margin-left: 100px;
 }

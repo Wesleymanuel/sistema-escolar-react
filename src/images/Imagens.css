@@ -1,0 +1,27 @@
+.fotos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.if {
+  display: flex;         /* coloca imagem e texto lado a lado */
+  align-items: center;   /* alinha verticalmente */
+  gap: 20px;    
+
+}
+
+.if img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.if p {
+  max-width: 400px;   /* largura máxima do texto */
+  font-size: 16px;
+  line-height: 1.5;
+}

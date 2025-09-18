@@ -1,0 +1,26 @@
+.ft {
+  display: flex;
+  flex-direction: column; /* cada imagem com texto fica em uma linha */
+  gap: 30px;
+  padding: 20px;
+}
+
+.process {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.process img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.process p {
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.5;
+}

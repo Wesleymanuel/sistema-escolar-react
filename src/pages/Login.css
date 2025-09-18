@@ -3,19 +3,20 @@
     padding: 0px;
 }
 .forms{
-    background-color: aqua;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(245, 245, 245, 0.404);
 }
 .div{
-    background-color: bisque;
+    background-color: rgba(175, 171, 171, 0.507);
     height: 70%;
     width: 50%;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
     align-items: center;
+    border-radius: 7px;
 }
 #nome{
     grid-column-start: 1;

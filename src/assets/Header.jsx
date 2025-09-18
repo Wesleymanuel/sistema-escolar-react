@@ -10,7 +10,7 @@ const Header = () => {
         <input className="search" type="text" placeholder="navegar.." />
         <div className="imports">
             <Link to='/Reclame'><Button2/></Link>
-            <Link to='/Conta'><Button1/></Link>
+            <Link to='/conta'><Button1/></Link>
         </div>
     </div>
   )

@@ -17,21 +17,40 @@
  justify-content: center;
  align-items: center;
  text-wrap: noWrap;
+ box-sizing: border-box;
 }
 ul{
     list-style: none;
     height: 70%;
-    width: 70%;
-    margin-left: 50%;
-    
+    width: 50%;
 }
 li{
     font-size: xx-large;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 a{
     text-decoration: none;
     color: black;
+}
+.insc{
+    background-color: antiquewhite;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.texto{
+    margin-top: 25%;
+}
+.cad{
+    margin-top: 50px;
+    height: 40px;
+    width: 130px;
+    font-size: large;
+    border-radius: 3px;
+    border-color: aliceblue;
 }

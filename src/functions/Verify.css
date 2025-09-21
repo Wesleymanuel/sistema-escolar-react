@@ -1,0 +1,14 @@
+.bot{
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    grid-row-start: 6;
+}
+#button{
+    height: 40px;
+    width: 120px;
+
+}

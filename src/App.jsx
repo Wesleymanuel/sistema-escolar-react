@@ -3,10 +3,7 @@ import './App.css'
 import Image2 from './images/image2.jsx'
 import Images from './images/Images.jsx'
 
-
-
 function App() {
-
 
   return (
     <>

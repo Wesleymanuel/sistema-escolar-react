@@ -1,5 +1,4 @@
 import './Login.css'
-import { GoPasskeyFill } from 'react-icons/go'
 
 const Login = () => {
   return (

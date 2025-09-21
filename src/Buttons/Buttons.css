@@ -10,3 +10,8 @@
     margin: 0px;
     padding: 0px;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}

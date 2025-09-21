@@ -19,18 +19,6 @@
  text-wrap: noWrap;
  box-sizing: border-box;
 }
-ul{
-    list-style: none;
-    height: 70%;
-    width: 50%;
-}
-li{
-    font-size: xx-large;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-}
 a{
     text-decoration: none;
     color: black;
@@ -44,7 +32,7 @@ a{
     text-align: center;
 }
 .texto{
-    margin-top: 25%;
+    margin-top: 15%;
 }
 .cad{
     margin-top: 50px;

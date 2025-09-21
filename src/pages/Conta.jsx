@@ -1,9 +1,6 @@
 import './Conta.css'
-import { RiAccountBoxFill } from 'react-icons/ri'
-import { RiAccountBox2Line } from "react-icons/ri"
-import { RiAccountPinBoxFill } from "react-icons/ri"
-import { AiOutlineUserSwitch } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import Ul from '../assets/Ul'
 
 
 const Conta = () => {
@@ -16,14 +13,9 @@ const Conta = () => {
           <h1>nao??</h1>
           <h1>faca uma!!</h1>
         </div>
-        <button className='cad'>cadastrar-se</button>
-      </div>
-      <ul className="list">
-        <Link to='/login'><li><RiAccountBox2Line/>aluno</li></Link>
-        <Link to='/login' ><li><RiAccountPinBoxFill/>responsavel</li></Link>
-        <Link to='/login'><li><RiAccountBoxFill/>professor</li></Link>
-        <Link to='/login'><li><AiOutlineUserSwitch/>coordenador</li></Link>
-      </ul>
+      <Link to={'/login2'}><button className='cad'>cadastrar-se</button></Link>
+    </div>
+      <Ul className='list'/>
      </div>
   </main>
   )

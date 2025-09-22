@@ -1,0 +1,15 @@
+.coodenador {
+  display: flex;
+  flex-direction: row; /* lado a lado */
+  justify-content: right;
+  height: 100vh;       /* ocupa tela toda, opcional */
+}
+
+.coodenador .navbar {
+  width: 250px; /* ajuste conforme seu NavbarMinimal */
+}
+
+.coodenador .table {
+  flex: 1; /* ocupa o resto do espaço */
+  overflow: auto; /* scroll se necessário */
+}

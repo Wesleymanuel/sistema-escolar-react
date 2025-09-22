@@ -7,10 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(245, 245, 245, 0.404);
+    background-color: white;
 }
 .div{
-    background-color: rgba(175, 171, 171, 0.507);
+    background-color: #009639;
     height: 70%;
     width: 50%;
     display: grid;

@@ -1,0 +1,35 @@
+.navbar {
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa; /* fundo claro */
+  padding: 16px 0;
+}
+
+.navbarMain {
+  flex: 1;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 8px; /* mesmo que var(--mantine-radius-md) */
+  color: #495057; /* cinza escuro */
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.link:hover {
+  background-color: #e9ecef; /* leve hover */
+}
+
+.link[data-active] {
+  background-color: #e7f5ff; /* azul claro quando ativo */
+  color: #228be6; /* azul do ícone quando ativo */
+}
+.navbar button{
+    width: 100%;
+}

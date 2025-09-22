@@ -10,7 +10,6 @@ const Conta = () => {
       <div className='insc'>
         <div className='texto'>
           <h1>tem conta?</h1>
-          <h1>nao??</h1>
           <h1>faca uma!!</h1>
         </div>
       <Link to={'/login2'}><button className='cad'>cadastrar-se</button></Link>

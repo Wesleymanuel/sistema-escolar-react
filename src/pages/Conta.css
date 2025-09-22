@@ -4,13 +4,13 @@
 }
 .main{
     height: 100vh;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .login{
- background-color: blueviolet;
+ background-color: white;
  height: 50%;
  width: 50%;
  display: flex;
@@ -18,21 +18,26 @@
  align-items: center;
  text-wrap: noWrap;
  box-sizing: border-box;
+   box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1),   /* sombra próxima */
+    0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
 }
 a{
     text-decoration: none;
     color: black;
 }
 .insc{
-    background-color: antiquewhite;
+    background-color: #009639;
     width: 50%;
     box-sizing: border-box;
     height: 100%;
     position: relative;
     text-align: center;
+     border-radius: 9px;
 }
 .texto{
     margin-top: 15%;
+   
 }
 .cad{
     margin-top: 50px;
@@ -41,4 +46,5 @@ a{
     font-size: large;
     border-radius: 3px;
     border-color: aliceblue;
+    
 }
